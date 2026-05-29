@@ -12,26 +12,28 @@ interface SectionHeaderProps {
 export const SectionHeader: React.FC<SectionHeaderProps> = ({ number, title, subtitle, icon: Icon }) => {
   return (
     <div className="relative mb-12">
-      <div className="flex items-end gap-4 overflow-hidden">
+      <div className="flex items-end gap-2 md:gap-4">
         <motion.span 
-          initial={{ y: 100 }}
-          whileInView={{ y: 0 }}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.1 }}
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-          className="text-8xl md:text-9xl font-display font-bold text-valo-green/10 leading-none"
+          className="text-6xl sm:text-7xl md:text-9xl font-display font-bold text-valo-green/10 leading-none flex-shrink-0 select-none"
         >
           {number}
         </motion.span>
         <motion.div 
-          initial={{ x: -100, opacity: 0 }}
+          initial={{ x: -20, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true, amount: 0.1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="pb-2"
+          className="pb-1 md:pb-2 min-w-0"
         >
           <div className="flex items-center gap-2 mb-1">
-            {Icon && <Icon size={20} className="text-valo-green" />}
-            <span className="text-valo-green font-mono text-sm tracking-[0.2em] uppercase">{subtitle || 'Initiative'}</span>
+            {Icon && <Icon size={16} className="text-valo-green md:w-5 md:h-5" />}
+            <span className="text-valo-green font-mono text-xs md:text-sm tracking-[0.2em] uppercase">{subtitle || 'Initiative'}</span>
           </div>
-          <h2 className="text-4xl md:text-6xl font-display font-bold uppercase tracking-tight leading-none">
+          <h2 className="text-2xl sm:text-4xl md:text-6xl font-display font-bold uppercase tracking-tight leading-none break-words">
             {title}
           </h2>
         </motion.div>

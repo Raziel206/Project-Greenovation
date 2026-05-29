@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
 import { valoAudio } from './utils/audio';
+import { BackgroundParticles } from './components/layout/BackgroundParticles';
 
 // Pages
 import { HomePage } from './pages/HomePage';
@@ -168,7 +169,8 @@ export default function App() {
   return (
     <Router>
       <ScrollToTop />
-      <div className="min-h-screen selection:bg-valo-green selection:text-valo-bg flex flex-col">
+      <div className="min-h-screen selection:bg-valo-green selection:text-valo-bg flex flex-col relative">
+        <BackgroundParticles />
         <TooltipRenderer />
         <Navbar />
         

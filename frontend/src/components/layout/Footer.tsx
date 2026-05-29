@@ -30,8 +30,18 @@ export const Footer: React.FC = () => {
               Join the movement that defines the next era of eco-conscious leadership.
             </p>
             <div className="flex gap-4">
-              {[Twitter, Instagram, Linkedin].map((Icon, i) => (
-                <a key={i} href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-valo-green hover:text-valo-bg hover:border-valo-green transition-all clip-path-valo">
+              {[
+                { Icon: Twitter, url: 'https://twitter.com' },
+                { Icon: Instagram, url: 'https://instagram.com' },
+                { Icon: Linkedin, url: 'https://linkedin.com' }
+              ].map(({ Icon, url }, i) => (
+                <a 
+                  key={i} 
+                  href={url} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-valo-green hover:text-valo-bg hover:border-valo-green transition-all clip-path-valo"
+                >
                   <Icon size={18} />
                 </a>
               ))}

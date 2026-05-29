@@ -1,0 +1,89 @@
+[
+  {
+    "id": "m1",
+    "name": "Alex Rivera",
+    "role": "President",
+    "image": "/images/members/alex_rivera.jpg",
+    "category": "core",
+    "socials": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  },
+  {
+    "id": "m2",
+    "name": "Sarah Chen",
+    "role": "Eco-Strategy Lead",
+    "image": "/images/members/sarah_chen.jpg",
+    "category": "core",
+    "socials": {
+      "instagram": "#",
+      "github": "#"
+    }
+  },
+  {
+    "id": "m3",
+    "name": "Marcus Thorne",
+    "role": "Tech Innovation Head",
+    "image": "/images/members/marcus_thorne.jpg",
+    "category": "core",
+    "socials": {
+      "github": "#",
+      "twitter": "#"
+    }
+  },
+  {
+    "id": "m4",
+    "name": "Elena Vance",
+    "role": "PR & Outreach",
+    "image": "/images/members/elena_vance.jpg",
+    "category": "executive",
+    "socials": {
+      "twitter": "#"
+    }
+  },
+  {
+    "id": "m5",
+    "name": "Dr. Aris Thorne",
+    "role": "Faculty Sponsor",
+    "image": "/images/members/advisor_1.jpg",
+    "category": "advisor",
+    "socials": {
+      "linkedin": "#",
+      "globe": "#"
+    }
+  },
+  {
+    "id": "m6",
+    "name": "Prof. Elena Rostova",
+    "role": "Sustainability Director",
+    "image": "/images/members/advisor_2.jpg",
+    "category": "advisor",
+    "socials": {
+      "linkedin": "#",
+      "mail": "mailto:elena.rostova@university.edu"
+    }
+  },
+  {
+    "id": "m7",
+    "name": "Leon Vance",
+    "role": "Co-Founder & Alumni President",
+    "image": "/images/members/founder_1.jpg",
+    "category": "founder",
+    "socials": {
+      "linkedin": "#",
+      "github": "#"
+    }
+  },
+  {
+    "id": "m8",
+    "name": "Clara Oswald",
+    "role": "Co-Founder & Alumni VP",
+    "image": "/images/members/founder_2.jpg",
+    "category": "founder",
+    "socials": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  }
+]

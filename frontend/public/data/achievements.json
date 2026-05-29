@@ -1,0 +1,202 @@
+[
+  {
+    "id": "a1",
+    "year": "2025",
+    "title": "Zero Waste Campus Award",
+    "description": "Recognized for implementing a university-wide composting and recycling system.",
+    "icon": "Award",
+    "type": "single",
+    "image": "/images/achievements/zero_waste.jpg",
+    "longDescription": "Our club successfully campaigned and designed a closed-loop composting and recycling architecture across the entire campus grounds. We worked closely with college administration to set up 50+ segregated waste stations, decreasing landfill output by 65% in less than 8 months.",
+    "link": "https://example.com/zero-waste-award"
+  },
+  {
+    "id": "a2",
+    "year": "2024",
+    "title": "Eco-Summit & Green-Fest",
+    "description": "A multi-event sustainability convention attracting over 1,200 attendees.",
+    "icon": "Trophy",
+    "type": "grouped",
+    "subEvents": [
+      {
+        "id": "sub1",
+        "title": "Keynote: Clean Energy Futures",
+        "description": "Distinguished panels on micro-grid implementation and nuclear energy feasibility.",
+        "date": "Oct 12, 2024",
+        "image": "/images/achievements/clean_energy.jpg"
+      },
+      {
+        "id": "sub2",
+        "title": "Solar Tech Exhibition",
+        "description": "Demonstrations of DIY solar cells and portable battery designs created by members.",
+        "date": "Oct 13, 2024",
+        "image": "/images/achievements/solar_exhibit.jpg",
+        "link": "https://example.com/greenfest-hackathon"
+      },
+      {
+        "id": "sub3",
+        "title": "Save-the-Planet Hackathon",
+        "description": "A 24-hour sprint prototyping eco-efficiency apps and smart water flow sensors.",
+        "date": "Oct 14, 2024",
+        "image": "/images/achievements/hackathon.jpg",
+        "link": "https://example.com/greenfest-hackathon"
+      }
+    ]
+  },
+  {
+    "id": "a3",
+    "year": "2024",
+    "title": "National Green Youth Prize",
+    "description": "Awarded for our \"Solar Backpack\" project developed by the tech team.",
+    "icon": "Trophy",
+    "type": "single",
+    "image": "/images/achievements/solar_backpack.jpg",
+    "longDescription": "The tech innovation team won top honors for designing and assembling a solar backpack using organic photovoltaic materials. This device stores solar energy throughout the day, enabling students in rural areas without power grids to study under bright LED lamps at night.",
+    "link": "https://example.com/green-youth-prize"
+  },
+  {
+    "id": "a4",
+    "year": "2023",
+    "title": "Sustainable Outreach Campaign",
+    "description": "Community-focused workshops and environmental activities across regional schools.",
+    "icon": "Globe",
+    "type": "grouped",
+    "subEvents": [
+      {
+        "id": "sub4",
+        "title": "Community Planting Drive",
+        "description": "Partnered with regional forest services to plant 2,000 native tree saplings.",
+        "date": "Apr 05, 2023",
+        "image": "/images/achievements/planting_drive.jpg"
+      },
+      {
+        "id": "sub5",
+        "title": "School Education Seminars",
+        "description": "Visited 12 middle schools to deliver interactive experiments explaining the greenhouse effect.",
+        "date": "May 11, 2023",
+        "image": "/images/achievements/school_seminar.jpg"
+      }
+    ]
+  },
+  {
+    "id": "a5",
+    "year": "2023",
+    "title": "COP-Sustainability Partner",
+    "description": "Selected as the official youth delegate partner for the regional climate summit.",
+    "icon": "Globe",
+    "type": "single",
+    "image": "/images/achievements/cop_partner.jpg",
+    "longDescription": "Greenovation represented the youth sector at the regional COP-Sustainability Summit. Five delegates from our executive committee presented a whitepaper advocating for renewable mandates in municipal buildings, earning recognition from international climate leaders.",
+    "link": "https://example.com/cop-summit-partner"
+  },
+  {
+    "id": "a7",
+    "year": "2024",
+    "title": "National Green Youth Prize",
+    "description": "Awarded for our \"Solar Backpack\" project developed by the tech team.",
+    "icon": "Trophy",
+    "type": "single",
+    "image": "/images/achievements/solar_backpack.jpg",
+    "longDescription": "The tech innovation team won top honors for designing and assembling a solar backpack using organic photovoltaic materials. This device stores solar energy throughout the day, enabling students in rural areas without power grids to study under bright LED lamps at night.",
+    "link": "https://example.com/green-youth-prize"
+  },
+  {
+    "id": "a2",
+    "year": "2024",
+    "title": "National Green Youth Prize",
+    "description": "Awarded for our \"Solar Backpack\" project developed by the tech team.",
+    "icon": "Trophy",
+    "type": "single",
+    "image": "/images/achievements/solar_backpack.jpg",
+    "longDescription": "The tech innovation team won top honors for designing and assembling a solar backpack using organic photovoltaic materials. This device stores solar energy throughout the day, enabling students in rural areas without power grids to study under bright LED lamps at night.",
+    "link": "https://example.com/green-youth-prize"
+  },
+  {
+    "id": "a10",
+    "year": "2024",
+    "title": "National Green Youth Prize",
+    "description": "Awarded for our \"Solar Backpack\" project developed by the tech team.",
+    "icon": "Trophy",
+    "type": "single",
+    "image": "/images/achievements/solar_backpack.jpg",
+    "longDescription": "The tech innovation team won top honors for designing and assembling a solar backpack using organic photovoltaic materials. This device stores solar energy throughout the day, enabling students in rural areas without power grids to study under bright LED lamps at night.",
+    "link": "https://example.com/green-youth-prize"
+  },
+  {
+    "id": "a4",
+    "year": "2024",
+    "title": "National Green Youth Prize",
+    "description": "Awarded for our \"Solar Backpack\" project developed by the tech team.",
+    "icon": "Trophy",
+    "type": "single",
+    "image": "/images/achievements/solar_backpack.jpg",
+    "longDescription": "The tech innovation team won top honors for designing and assembling a solar backpack using organic photovoltaic materials. This device stores solar energy throughout the day, enabling students in rural areas without power grids to study under bright LED lamps at night.",
+    "link": "https://example.com/green-youth-prize"
+  },
+  {
+    "id": "a1",
+    "year": "2024",
+    "title": "National Green Youth Prize",
+    "description": "Awarded for our \"Solar Backpack\" project developed by the tech team.",
+    "icon": "Trophy",
+    "type": "single",
+    "image": "/images/achievements/solar_backpack.jpg",
+    "longDescription": "The tech innovation team won top honors for designing and assembling a solar backpack using organic photovoltaic materials. This device stores solar energy throughout the day, enabling students in rural areas without power grids to study under bright LED lamps at night.",
+    "link": "https://example.com/green-youth-prize"
+  },
+  {
+    "id": "a9",
+    "year": "2024",
+    "title": "National Green Youth Prize",
+    "description": "Awarded for our \"Solar Backpack\" project developed by the tech team.",
+    "icon": "Trophy",
+    "type": "single",
+    "image": "/images/achievements/solar_backpack.jpg",
+    "longDescription": "The tech innovation team won top honors for designing and assembling a solar backpack using organic photovoltaic materials. This device stores solar energy throughout the day, enabling students in rural areas without power grids to study under bright LED lamps at night.",
+    "link": "https://example.com/green-youth-prize"
+  },
+  {
+    "id": "a5",
+    "year": "2024",
+    "title": "National Green Youth Prize",
+    "description": "Awarded for our \"Solar Backpack\" project developed by the tech team.",
+    "icon": "Trophy",
+    "type": "single",
+    "image": "/images/achievements/solar_backpack.jpg",
+    "longDescription": "The tech innovation team won top honors for designing and assembling a solar backpack using organic photovoltaic materials. This device stores solar energy throughout the day, enabling students in rural areas without power grids to study under bright LED lamps at night.",
+    "link": "https://example.com/green-youth-prize"
+  },
+  {
+    "id": "a8",
+    "year": "2024",
+    "title": "National Green Youth Prize",
+    "description": "Awarded for our \"Solar Backpack\" project developed by the tech team.",
+    "icon": "Trophy",
+    "type": "single",
+    "image": "/images/achievements/solar_backpack.jpg",
+    "longDescription": "The tech innovation team won top honors for designing and assembling a solar backpack using organic photovoltaic materials. This device stores solar energy throughout the day, enabling students in rural areas without power grids to study under bright LED lamps at night.",
+    "link": "https://example.com/green-youth-prize"
+  },
+  {
+    "id": "a3",
+    "year": "2024",
+    "title": "National Green Youth Prize",
+    "description": "Awarded for our \"Solar Backpack\" project developed by the tech team.",
+    "icon": "Trophy",
+    "type": "single",
+    "image": "/images/achievements/solar_backpack.jpg",
+    "longDescription": "The tech innovation team won top honors for designing and assembling a solar backpack using organic photovoltaic materials. This device stores solar energy throughout the day, enabling students in rural areas without power grids to study under bright LED lamps at night.",
+    "link": "https://example.com/green-youth-prize"
+  },
+  {
+    "id": "a6",
+    "year": "2024",
+    "title": "National Green Youth Prize",
+    "description": "Awarded for our \"Solar Backpack\" project developed by the tech team.",
+    "icon": "Trophy",
+    "type": "single",
+    "image": "/images/achievements/solar_backpack.jpg",
+    "longDescription": "The tech innovation team won top honors for designing and assembling a solar backpack using organic photovoltaic materials. This device stores solar energy throughout the day, enabling students in rural areas without power grids to study under bright LED lamps at night.",
+    "link": "https://example.com/green-youth-prize"
+  }
+]

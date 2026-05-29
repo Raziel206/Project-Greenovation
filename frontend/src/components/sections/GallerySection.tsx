@@ -1,11 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Image as ImageIcon, X, Expand } from 'lucide-react';
-import { GALLERY_IMAGES } from '../../data/constants';
 import { SectionHeader } from '../ui/Shared';
 
 export const GallerySection: React.FC = () => {
+  const [galleryImages, setGalleryImages] = useState<string[]>([]);
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+  useEffect(() => {
+    fetch('/data/gallery.json')
+      .then(res => res.json())
+      .then(data => setGalleryImages(data))
+      .catch(err => console.error('Error fetching gallery images:', err));
+  }, []);
 
   return (
     <section id="gallery" className="py-24 relative bg-valo-dark/50">
@@ -18,7 +25,7 @@ export const GallerySection: React.FC = () => {
         />
 
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
-          {GALLERY_IMAGES.map((img, i) => (
+          {galleryImages.map((img, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 20 }}

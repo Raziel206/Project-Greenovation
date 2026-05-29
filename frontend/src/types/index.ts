@@ -19,12 +19,22 @@ export interface Member {
   name: string;
   role: string;
   image: string;
-  category: 'core' | 'executive';
+  category: 'core' | 'advisor' | 'executive' | 'founder';
   socials: {
     twitter?: string;
     linkedin?: string;
     github?: string;
+    [key: string]: string | undefined;
   };
+}
+
+export interface SubEvent {
+  id: string;
+  title: string;
+  description: string;
+  date?: string;
+  image?: string;
+  link?: string;
 }
 
 export interface Achievement {
@@ -33,4 +43,10 @@ export interface Achievement {
   title: string;
   description: string;
   icon: string;
+  type: 'single' | 'grouped';
+  image?: string;
+  longDescription?: string;
+  link?: string;
+  subEvents?: SubEvent[];
 }
+
